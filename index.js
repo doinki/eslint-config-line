@@ -16,6 +16,7 @@ const rules = {
   'react/prop-types': 'off',
   'react/require-default-props': 'off',
   'salt/react-hook-dependencies': 'warn',
+  'trim/argument': 'warn',
   'trim/class-name': 'warn',
 };
 
