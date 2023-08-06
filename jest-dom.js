@@ -3,7 +3,7 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 module.exports = {
   overrides: [
     {
-      extends: ['plugin:testing-library/react'],
+      extends: ['plugin:jest-dom/recommended'],
       files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
     },
   ],

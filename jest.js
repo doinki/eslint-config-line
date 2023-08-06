@@ -8,10 +8,7 @@ module.exports = {
         'plugin:jest/recommended',
         'plugin:jest/style',
       ],
-      files: [
-        '**/__tests__/**/*.@(j|t)s?(x)',
-        '**/?(*.)+(spec|test).@(j|t)s?(x)',
-      ],
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
     },
     {
       files: ['**/__tests__/**/*.ts?(x)', '**/?(*.)+(spec|test).ts?(x)'],

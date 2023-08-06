@@ -4,10 +4,10 @@
 
 ```bash
 # yarn
-yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint typescript eslint-config-line
+yarn add -D eslint eslint-config-line
 
 # npm
-npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint typescript eslint-config-line
+npm i -D eslint eslint-config-line
 ```
 
 ## Configuration
@@ -16,8 +16,8 @@ npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint types
 - line/next - next
 - line/base - node
 - line/jest - jest
+- line/jest-dom - jest-dom
 - line/react-testing-library - react testing library
-- line/cypress - cypress
 - line/storybook - storybook
 - line/tailwindcss - tailwindcss
 - line/prettier - prettier
