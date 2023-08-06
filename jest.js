@@ -3,11 +3,7 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 module.exports = {
   overrides: [
     {
-      extends: [
-        'plugin:jest-dom/recommended',
-        'plugin:jest/recommended',
-        'plugin:jest/style',
-      ],
+      extends: ['plugin:jest/recommended', 'plugin:jest/style'],
       files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
     },
     {
