@@ -18,7 +18,7 @@
   "files": [
     "base.js",
     "index.js",
-    "jest-dom.js",
+    "jest-dom-testing-library.js",
     "jest.js",
     "next.js",
     "prettier.js",
