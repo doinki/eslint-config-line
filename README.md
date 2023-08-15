@@ -12,27 +12,30 @@ npm i -D eslint eslint-config-line
 
 ## Configuration
 
-- line - react
-- line/next - next
-- line/base - node
+- line - airbnb, airbnb/hooks, react
+- line/base - airbnb-base
+- line/jest-dom-testing-library - jest dom
 - line/jest - jest
-- line/jest-dom - jest-dom
-- line/react-testing-library - react testing library
+- line/next - @next/next
+- line/prettier - prettier
+- line/react-testing-library - testing library
+- line/sort - salt, simple-import-sort, sort-destructure-keys, sort-keys-fix
 - line/storybook - storybook
 - line/tailwindcss - tailwindcss
-- line/prettier - prettier
+- line/trim - trim
+- line/typescript - @typescript-eslint
 
 ### .eslintrc.json
 
 ```json
 {
   "extends": [
+    "line/typescript",
     "line",
     "line/next",
-    "line/jest",
-    "line/react-testing-library",
-    "line/storybook",
     "line/tailwindcss",
+    "line/sort",
+    "line/trim",
     "line/prettier"
   ],
   "parserOptions": { "project": "tsconfig.json" }
